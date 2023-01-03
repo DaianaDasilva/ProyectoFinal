@@ -1,0 +1,73 @@
+.portada {
+    background-image: url('../assets/portada.webp') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: none !important;
+    height: 200px !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.profile {
+    position: relative;
+    height: 100px !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.profile .profile-img {
+    height: 200px; 
+    width: 200px;
+    padding: 0;
+    position: absolute;
+    top: -100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.75);
+}
+
+/* Inicio de navegación */
+.navigator {
+    padding: 0;
+}
+
+.navigator .list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.navigator .list .list-item {
+    margin: 0.75rem;
+    height: 50px;
+    width: 50px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.navigator .list .list-item:hover {
+    transition: all 0.5s;
+    background-color: rgb(128, 128, 128);
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.navigator .list .list-item a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    transition: all 0.5s;
+} 
+
+.navigator .list .list-item a:hover {
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+} 
+/* Fin de navegación */
